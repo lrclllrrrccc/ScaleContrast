@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # reCurrent Additive Network for Temporal RIsk Prediction (CANTRIP)
 A TensorFlow model for predicting temporal (disease) risk based on retrospective analysis of longitudinal clinical notes as in
 
@@ -338,3 +339,7 @@ where ``[timestamp]`` is the timestamp of the label and ``[label]`` is a zero or
 
 
 Note: the `run_experiment.py` script will handle truncating chronologies and discarding present-on-admission labels.
+=======
+# ScaleContrast
+基于canrip进行多尺度对比学习改进
+>>>>>>> 7f2422049da850004751979eb06959e1f0e78f0b
