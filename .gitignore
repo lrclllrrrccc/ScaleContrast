@@ -189,3 +189,30 @@ reports/
 
 # Project sphinx files
 docs/sphinx/doctrees
+
+# Model checkpoints and large files
+*.pkl
+*.pth
+*.h5
+*.ckpt
+checkpoints/
+models/
+
+# Output and results
+output/
+results/
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
